@@ -1,7 +1,7 @@
 {
   "name": "@henningkerstan/npm-scripts",
   "version": "0.0.0",
-  "description": "A simple script to be used as npm version script in a TypeScript project to automatically run TypeDoc.",
+  "description": "My personal npm build scripts.",
   "files": [
     "lib/**/*"
   ],
@@ -19,15 +19,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henningkerstan/npm-scripts.git"
+    "url": "https://github.com/henningkerstan/npm-scripts.git"
   },
   "author": "Henning Kerstan",
   "license": "Apache-2.0",
   "keywords": [
-    "heartbeat",
-    "heartbeat LED",
-    "LED",
-    "Raspberry Pi"
+    "npm",
+    "npm script",
+    "build script",
+    "typedoc",
+    "npm version"
   ],
   "devDependencies": {
     "@henningkerstan/eslint-config": "^0.0.3",
