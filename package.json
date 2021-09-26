@@ -1,5 +1,5 @@
 {
-  "name": "@henningkerstan/generate-documentation",
+  "name": "@henningkerstan/npm-scripts",
   "version": "0.0.0",
   "description": "A simple script to be used as npm version script in a TypeScript project to automatically run TypeDoc.",
   "files": [
@@ -11,15 +11,15 @@
     "all": "npm run build && npm run build && npm run doc",
     "lint": "eslint --ignore-path .gitignore --fix src/**/*.ts",
     "prepublishOnly": "npm run license-checker && npm run build",
-    "version": "npx ts-node ./src/generate-documentation",
+    "version": "npx ts-node ./src/npm-version",
     "license-checker": "npx license-checker --summary --production --unknown --onlyAllow \"Apache-2.0;MIT;BSD;ISC\""
   },
   "bin": {
-    "generate-documentation": "lib/generate-documentation.js"
+    "npm-version": "lib/npm-version.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henningkerstan/generate-documentation.git"
+    "url": "git+https://github.com/henningkerstan/npm-scripts.git"
   },
   "author": "Henning Kerstan",
   "license": "Apache-2.0",
@@ -50,9 +50,9 @@
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/henningkerstan/generate-documentation/issues"
+    "url": "https://github.com/henningkerstan/npm-scripts/issues"
   },
-  "homepage": "https://github.com/henningkerstan/generate-documentation#readme",
+  "homepage": "https://github.com/henningkerstan/npm-scripts#readme",
   "directories": {
     "lib": "lib"
   }

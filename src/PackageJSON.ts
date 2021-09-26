@@ -1,4 +1,4 @@
-// Project: @henningkerstan/generate-documentation
+// Project: @henningkerstan/npm-scripts
 // File: PackageJSON.ts
 //
 // Copyright 2021 Henning Kerstan

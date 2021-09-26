@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Project: @henningkerstan/generate-documentation
-// File: generate-documentation.ts
+// Project: @henningkerstan/npm-scripts
+// File: npm-version.ts
 //
 // Copyright 2021 Henning Kerstan
 //
